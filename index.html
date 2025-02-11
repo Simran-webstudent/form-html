@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Layout</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<div class="Registration">
+<div class="heading">
+        <h2>Registration form</h2>
+   </div>
+    <div class="container"> 
+        <form class="form">
+            <div class="row mb-14">
+                <div class="col-60">
+                    <label for="">First Name</label>
+                    <input type="text" id="fname" placeholder="eg.Swati">
+                </div>
+                <div class="col-60">
+                    <label for="">Last Name</label>
+                    <input type="text" id="lname" placeholder="eg.Gupta">
+                </div>
+            </div>
+            <div class="mb-14">
+                <label for="">Email-id</label>
+                <input type="email" id="email" placeholder="yourname@gamil.com">
+
+            </div>
+            <div class="row mb-14">
+                <div class="col-30">
+                    <label for="">Country</label>
+                    <select name="country_code">
+                        <option value=""> Select Country</option>
+                        <option value="+91"> India (+91)</option>
+                        <option value="+1"> USA(+1)</option>
+                    </select>
+                </div>
+                <div class="col-70">
+                    <label for="">Phone-no.</label>
+                    <input type="tel" id="tel" placeholder="eg.91xxxxxxxxxx">
+                </div>
+            </div>
+            <div class="mb-14">
+                <label for="">Gender:
+                    <label for="">
+                        <input type="radio" value="Male" name="gender">Male
+                    </label>
+                    <label for="">
+                        <input type="radio" value="Female" name="gender">Female
+                    </label>
+                </label>
+
+            </div>
+            <div class="row mb-14">
+                <div class="col-70">
+                    <label for="">Date Of Birth
+                    </label>
+                    <input type="date" name="dob">
+                </div>
+                <div class="col-30">
+                    <label for="">City
+                    </label>
+                    <select name="city" id="">
+                        <option value="new delhi">New Delhi</option>
+                        <option value="haryana">Haryana</option>
+                        <option value="punjab">Punjab</option>
+                        <option value="gujarat">Gujarat</option>
+                    </select>
+                </div>
+            </div>
+            <label class="mb-14" for="">
+                <input type="checkbox" name="tnc">
+                I Accept all <a href="">Terms & Conditions</a> and <a href="">Privacy policy</a>of the website
+            </label>
+            <button>Register
+            </button>
+        </form>
+        <div class="illustration">
+            <img src="Assets/image/Person _work_ in_ laptop.png" alt="Person_work_in_laptop" width="300px">
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
