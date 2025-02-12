@@ -103,7 +103,7 @@ h2{
     font-size: 40px;
     letter-spacing: -2px;
     text-shadow: 2px 2px 3px rgba(35, 11, 69, 0.617) ,2px 1px 4px rgba(35, 102, 138, 0.981),4px 4px 8px rgb(167, 221, 247), 4px 4px 8px rgba(42, 157, 214, 0.993);
-    color:rgba(250, 250, 250, 0.969);
+    color:rgb(249, 249, 249);
 }
 .information{
    padding: 10px;
